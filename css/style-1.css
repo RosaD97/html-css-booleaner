@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    width: 1010px;
+    margin: auto;
 }
 
 /* Intestazione */
@@ -8,19 +10,19 @@ header{
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
     background-size: cover;
-    background-size: 20%;
+    background-size: 40%;
 }
 #logoBooleaner{
     height: 45px;
     margin-top: 45px;
     margin-left: 5px;
-    
+
 }
 /* Fine Intestazione */
 
 /* Titolo articolo */
 #titoloArticolo{
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 15px;
     margin-bottom: 0;
     margin-left: 5px;
@@ -42,3 +44,16 @@ header{
     margin-left: 5px;
 }
 /* Fine Titolo articolo */
+
+/* Foto */
+.infoFoto{
+    font-size: 13px;
+    margin: 0;
+}
+/*Fine Foto */
+
+/* lista */
+.lista{
+    padding-left: 20px;
+}
+/* Fine lista */
