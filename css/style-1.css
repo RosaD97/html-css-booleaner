@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+/* Intestazione */
+
+header{
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    background-size: 20%;
+}
+#logoBooleaner{
+    height: 45px;
+    margin-top: 45px;
+    margin-left: 5px;
+    
+}
+/* Fine Intestazione */
