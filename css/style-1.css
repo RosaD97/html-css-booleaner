@@ -57,3 +57,21 @@ header{
     padding-left: 20px;
 }
 /* Fine lista */
+
+/* Tabella */
+#tabella{
+    width: 100%;
+}
+.titoloTabella{
+    background-color: #20a9e5;
+    color: white;
+    text-align: left;
+    height: 5px;
+}
+.cellaPiccola{
+    width: 25%;
+}
+.cellaAzzurra{
+    background-color: #b1e5f2;
+}
+/*Fine Tabella */
