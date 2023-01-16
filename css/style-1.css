@@ -70,9 +70,11 @@ header{
 }
 .cellaPiccola{
     width: 25%;
+    width: 20%;
 }
 .cellaAzzurra{
     background-color: #b1e5f2;
+
 }
 /*Fine Tabella */
 
