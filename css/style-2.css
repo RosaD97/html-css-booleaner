@@ -1,6 +1,7 @@
 header{
     background-color: black;
     border: 3px solid #3772fe;
+    border-radius: 20px 40px;
     
 }
 
@@ -38,4 +39,111 @@ body{
     color: #aaebff;
     margin-top: 0;
     
+}
+
+#dataSottotitolo{
+    font-size: 12px;
+    color: gray;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+/* Fine Titolo articolo */
+
+/* Foto */
+.infoFoto{
+    font-size: small;
+    margin: 0;
+    color: white;
+    margin-left: 22px;
+}
+
+.fotoArticolo{
+    border: 2px solid white;
+    width: 450px;
+    height: 350px;
+    margin-left: 22px;
+    border-radius: 5px;
+}
+/*Fine Foto */
+
+p{
+    color: white;
+}
+mark{
+    background-color: #3772fe;
+}
+/* lista */
+.lista{
+    padding-left: 20px;
+    color: white;
+    margin-top: 30px;
+    border: 1px dotted #3772fe;
+    border-radius: px;
+    border-right: 0px;
+    border-left: 0px;
+}
+/* Fine lista */
+
+/* Tabella */
+#tabella{
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    margin-top: 50px;
+}
+.titoloTabella{
+    background-color: #3772fe;
+    color: white;
+    text-align: left;
+    height: 5px;
+}
+.cellaPiccola{
+    width: 20%;
+}
+
+.cellaColorata{
+    background-color: rgb(0, 0, 0);
+    color: #3772fe;
+}
+
+/* Fine Tabella */
+
+/* footer */
+#infoTesto{
+    color: #707070;
+    border-top: 1px dotted #3772fe;
+    padding-left: 400px;
+    padding-top: 10px;
+    
+}
+.nomeFoto{
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+#infoTesto::before, #infoTesto::after{
+    content: '\2193';
+}
+#fotoMonitor{
+    width: 250px;
+    height: 150px;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-left: 170px;
+    display: inline-block;
+    border: 1px solid white;
+}
+#fotoGrafica{
+    width: 250px;
+    height: 150px;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    margin-left: 100px;
+    display: inline-block;
+    border: 1px solid white;
 }
