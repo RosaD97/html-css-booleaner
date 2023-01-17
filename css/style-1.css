@@ -61,6 +61,7 @@ header{
 /* Tabella */
 #tabella{
     width: 100%;
+    border-collapse: collapse;
 }
 .titoloTabella{
     background-color: #20a9e5;
@@ -68,8 +69,7 @@ header{
     text-align: left;
     height: 5px;
 }
-.cellaPiccola{
-    width: 25%;
+.cellaPiccola{\
     width: 20%;
 }
 .cellaAzzurra{
